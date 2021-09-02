@@ -1,11 +1,12 @@
 
-
+/* Global */
 body {
     background-color: #eee;
     font-family: "Poppins", sans-serif;
     font-weight: 300
 }
 
+/* Search Input and button styles */
 .height {
     height: 150px
 }
@@ -41,7 +42,7 @@ body {
     background: blue
 }
 
-
+/* error and success message */
 #message {
      display: none;
     padding: 10px;
@@ -49,12 +50,16 @@ body {
     color: white;
     font-weight: 700;
 }
+/* spinner */
 #spinner{
     display: none;
 }
+/* Labels  */
 .label{
     font-weight: 600;
 }
+
+/* Author style */
 .author{
     color:rgb(230, 79, 19);
 }
